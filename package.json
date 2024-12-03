@@ -1,0 +1,23 @@
+{
+  "name": "image-converter-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/amqplib": "^0.10.5",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.703.0",
+    "amqplib": "^0.10.5"
+  }
+}
